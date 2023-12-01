@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Montserrat:wght@100;300;600;700&family=Poppins:wght@100;300;400;500&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+p, button {
+	font-family: 'Poppins', sans-serif;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6{
+	font-family: 'Baloo 2', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.text-notes{
+  margin-left: 8rem;
+  text-align: justify;
+}
+
+.text-notes h1{
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-left: 30px;
+}
+
+.text-notes p{
+  font-size: 0.9rem;
+  max-width: 50%;
+}
+
+
+
+.container-notes{
+    margin-left: 8rem;
+    margin-top: 40px;
+ } 
+  .container {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .addNote-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    border: 1px solid rgb(173, 74, 225, 100%);
+    height: 180px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  .icon-plus {
+    padding: 0 14px;
+    border: 2px solid;
+    width: fit-content;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: #AD4AFF ;
+    margin-bottom: 9px;
+  }
+  
+  .content {
+    display: contents;
+  }
+  
+  textarea {
+    padding: 10px;
+    padding-top: 14px;
+    outline: none;
+    resize: none;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    width: 260px;
+    height: 180px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    text-align: left;
+
+    
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 4px;
+  }
+  textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ffffff; 
+  }
+  
+  
+  .item {
+    position: relative;
+    width: 260px;
+    height: 180px;
+    border-radius: 5px;
+  }
+  
+  .remove {
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Montserrat';
+    
+  }
